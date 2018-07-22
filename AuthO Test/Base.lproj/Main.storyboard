@@ -16,7 +16,25 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXu-zQ-xOy">
+                                <rect key="frame" x="135" y="269" width="106" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SXu-zQ-xOy" secondAttribute="height" multiplier="17:10" id="z0h-ca-OeM"/>
+                                </constraints>
+                                <state key="normal" title="Sign In!"/>
+                                <connections>
+                                    <action selector="showLoginController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sSg-Hx-qzj"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SXu-zQ-xOy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="6vb-rj-Upy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SXu-zQ-xOy" secondAttribute="trailing" constant="134" id="CfK-Fi-R0E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SXu-zQ-xOy" secondAttribute="bottom" constant="269" id="Eig-3v-j6P"/>
+                            <constraint firstItem="SXu-zQ-xOy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="SJ1-In-Utg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
