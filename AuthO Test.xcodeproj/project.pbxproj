@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7A29EA74B752A4AB9000D8 /* Pods_AuthO_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB1C6ED2883F15A8B935E36 /* Pods_AuthO_Test.framework */; };
+		AE4E6812F972D52C43DCF37F /* Pods_AuthO_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B3EECDBA2614F328D334D9 /* Pods_AuthO_TestTests.framework */; };
+		D73D12592103F4BE004EF66B /* s.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D12582103F4BE004EF66B /* s.swift */; };
+		D73D125B2103F4BE004EF66B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D125A2103F4BE004EF66B /* ViewController.swift */; };
+		D73D125E2103F4BE004EF66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D125C2103F4BE004EF66B /* Main.storyboard */; };
+		D73D12612103F4BE004EF66B /* AuthO_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D73D125F2103F4BE004EF66B /* AuthO_Test.xcdatamodeld */; };
+		D73D12632103F4BF004EF66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D12622103F4BF004EF66B /* Assets.xcassets */; };
+		D73D12662103F4BF004EF66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D12642103F4BF004EF66B /* LaunchScreen.storyboard */; };
+		D73D12712103F4BF004EF66B /* AuthO_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D12702103F4BF004EF66B /* AuthO_TestTests.swift */; };
+		D73D127C2103F4BF004EF66B /* AuthO_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D127B2103F4BF004EF66B /* AuthO_TestUITests.swift */; };
+		D7F745A42103F607007E5191 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F745A32103F607007E5191 /* Auth0.plist */; };
+		D7F745A62103F6D9007E5191 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F745A52103F6D9007E5191 /* Default-568h@2x.png */; };
+		DFF0CAADA4D47CA51124691F /* Pods_AuthO_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B0900C09449D05CB185F45 /* Pods_AuthO_TestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D73D126D2103F4BF004EF66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73D124D2103F4BE004EF66B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73D12542103F4BE004EF66B;
+			remoteInfo = "AuthO Test";
+		};
+		D73D12782103F4BF004EF66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73D124D2103F4BE004EF66B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73D12542103F4BE004EF66B;
+			remoteInfo = "AuthO Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236EA0496AB2AC7461B7DD66 /* Pods-AuthO TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO TestUITests/Pods-AuthO TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25B0900C09449D05CB185F45 /* Pods_AuthO_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthO_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A7680DB65C480B1E74C0DC /* Pods-AuthO Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO Test/Pods-AuthO Test.release.xcconfig"; sourceTree = "<group>"; };
+		4AD0F36A16636E8B744DDF6B /* Pods-AuthO Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO Test/Pods-AuthO Test.debug.xcconfig"; sourceTree = "<group>"; };
+		AA78E20E4EE692DD29DDC4C8 /* Pods-AuthO TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO TestUITests/Pods-AuthO TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B3EECDBA2614F328D334D9 /* Pods_AuthO_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthO_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5743794F2DBD500A4DBABB2 /* Pods-AuthO TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO TestTests/Pods-AuthO TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D73D12552103F4BE004EF66B /* AuthO Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuthO Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D12582103F4BE004EF66B /* s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s.swift; sourceTree = "<group>"; };
+		D73D125A2103F4BE004EF66B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D73D125D2103F4BE004EF66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73D12602103F4BE004EF66B /* AuthO_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AuthO_Test.xcdatamodel; sourceTree = "<group>"; };
+		D73D12622103F4BF004EF66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73D12652103F4BF004EF66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73D12672103F4BF004EF66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73D126C2103F4BF004EF66B /* AuthO TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AuthO TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D12702103F4BF004EF66B /* AuthO_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthO_TestTests.swift; sourceTree = "<group>"; };
+		D73D12722103F4BF004EF66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73D12772103F4BF004EF66B /* AuthO TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AuthO TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D127B2103F4BF004EF66B /* AuthO_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthO_TestUITests.swift; sourceTree = "<group>"; };
+		D73D127D2103F4BF004EF66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F745A32103F607007E5191 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		D7F745A52103F6D9007E5191 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDB1C6ED2883F15A8B935E36 /* Pods_AuthO_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthO_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B1D74D99E27B2D71B7334E /* Pods-AuthO TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO TestTests/Pods-AuthO TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73D12522103F4BE004EF66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7A29EA74B752A4AB9000D8 /* Pods_AuthO_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73D12692103F4BF004EF66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4E6812F972D52C43DCF37F /* Pods_AuthO_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73D12742103F4BF004EF66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0CAADA4D47CA51124691F /* Pods_AuthO_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B85C4AFBE5FA1D604A724CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0F36A16636E8B744DDF6B /* Pods-AuthO Test.debug.xcconfig */,
+				46A7680DB65C480B1E74C0DC /* Pods-AuthO Test.release.xcconfig */,
+				F3B1D74D99E27B2D71B7334E /* Pods-AuthO TestTests.debug.xcconfig */,
+				C5743794F2DBD500A4DBABB2 /* Pods-AuthO TestTests.release.xcconfig */,
+				AA78E20E4EE692DD29DDC4C8 /* Pods-AuthO TestUITests.debug.xcconfig */,
+				236EA0496AB2AC7461B7DD66 /* Pods-AuthO TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		967FABC86C19D9FF7C7A4089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB1C6ED2883F15A8B935E36 /* Pods_AuthO_Test.framework */,
+				C2B3EECDBA2614F328D334D9 /* Pods_AuthO_TestTests.framework */,
+				25B0900C09449D05CB185F45 /* Pods_AuthO_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D73D124C2103F4BE004EF66B = {
+			isa = PBXGroup;
+			children = (
+				D7F745A52103F6D9007E5191 /* Default-568h@2x.png */,
+				D73D12572103F4BE004EF66B /* AuthO Test */,
+				D73D126F2103F4BF004EF66B /* AuthO TestTests */,
+				D73D127A2103F4BF004EF66B /* AuthO TestUITests */,
+				D73D12562103F4BE004EF66B /* Products */,
+				3B85C4AFBE5FA1D604A724CC /* Pods */,
+				967FABC86C19D9FF7C7A4089 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D73D12562103F4BE004EF66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73D12552103F4BE004EF66B /* AuthO Test.app */,
+				D73D126C2103F4BF004EF66B /* AuthO TestTests.xctest */,
+				D73D12772103F4BF004EF66B /* AuthO TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73D12572103F4BE004EF66B /* AuthO Test */ = {
+			isa = PBXGroup;
+			children = (
+				D73D12582103F4BE004EF66B /* s.swift */,
+				D73D125A2103F4BE004EF66B /* ViewController.swift */,
+				D73D125C2103F4BE004EF66B /* Main.storyboard */,
+				D7F745A32103F607007E5191 /* Auth0.plist */,
+				D73D12622103F4BF004EF66B /* Assets.xcassets */,
+				D73D12642103F4BF004EF66B /* LaunchScreen.storyboard */,
+				D73D12672103F4BF004EF66B /* Info.plist */,
+				D73D125F2103F4BE004EF66B /* AuthO_Test.xcdatamodeld */,
+			);
+			path = "AuthO Test";
+			sourceTree = "<group>";
+		};
+		D73D126F2103F4BF004EF66B /* AuthO TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D73D12702103F4BF004EF66B /* AuthO_TestTests.swift */,
+				D73D12722103F4BF004EF66B /* Info.plist */,
+			);
+			path = "AuthO TestTests";
+			sourceTree = "<group>";
+		};
+		D73D127A2103F4BF004EF66B /* AuthO TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D73D127B2103F4BF004EF66B /* AuthO_TestUITests.swift */,
+				D73D127D2103F4BF004EF66B /* Info.plist */,
+			);
+			path = "AuthO TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73D12542103F4BE004EF66B /* AuthO Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73D12802103F4BF004EF66B /* Build configuration list for PBXNativeTarget "AuthO Test" */;
+			buildPhases = (
+				8C777E1A5EA66EB5B6D1447A /* [CP] Check Pods Manifest.lock */,
+				D73D12512103F4BE004EF66B /* Sources */,
+				D73D12522103F4BE004EF66B /* Frameworks */,
+				D73D12532103F4BE004EF66B /* Resources */,
+				C8778E04635DEC22EFD4A88D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AuthO Test";
+			productName = "AuthO Test";
+			productReference = D73D12552103F4BE004EF66B /* AuthO Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D73D126B2103F4BF004EF66B /* AuthO TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73D12832103F4BF004EF66B /* Build configuration list for PBXNativeTarget "AuthO TestTests" */;
+			buildPhases = (
+				93ABEE932C72D28782E5A441 /* [CP] Check Pods Manifest.lock */,
+				D73D12682103F4BF004EF66B /* Sources */,
+				D73D12692103F4BF004EF66B /* Frameworks */,
+				D73D126A2103F4BF004EF66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73D126E2103F4BF004EF66B /* PBXTargetDependency */,
+			);
+			name = "AuthO TestTests";
+			productName = "AuthO TestTests";
+			productReference = D73D126C2103F4BF004EF66B /* AuthO TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D73D12762103F4BF004EF66B /* AuthO TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73D12862103F4BF004EF66B /* Build configuration list for PBXNativeTarget "AuthO TestUITests" */;
+			buildPhases = (
+				C9E344321971CE01723797B4 /* [CP] Check Pods Manifest.lock */,
+				D73D12732103F4BF004EF66B /* Sources */,
+				D73D12742103F4BF004EF66B /* Frameworks */,
+				D73D12752103F4BF004EF66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73D12792103F4BF004EF66B /* PBXTargetDependency */,
+			);
+			name = "AuthO TestUITests";
+			productName = "AuthO TestUITests";
+			productReference = D73D12772103F4BF004EF66B /* AuthO TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73D124D2103F4BE004EF66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Larson Carter";
+				TargetAttributes = {
+					D73D12542103F4BE004EF66B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D73D126B2103F4BF004EF66B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D73D12542103F4BE004EF66B;
+					};
+					D73D12762103F4BF004EF66B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D73D12542103F4BE004EF66B;
+					};
+				};
+			};
+			buildConfigurationList = D73D12502103F4BE004EF66B /* Build configuration list for PBXProject "AuthO Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73D124C2103F4BE004EF66B;
+			productRefGroup = D73D12562103F4BE004EF66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73D12542103F4BE004EF66B /* AuthO Test */,
+				D73D126B2103F4BF004EF66B /* AuthO TestTests */,
+				D73D12762103F4BF004EF66B /* AuthO TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73D12532103F4BE004EF66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D12662103F4BF004EF66B /* LaunchScreen.storyboard in Resources */,
+				D73D12632103F4BF004EF66B /* Assets.xcassets in Resources */,
+				D73D125E2103F4BE004EF66B /* Main.storyboard in Resources */,
+				D7F745A62103F6D9007E5191 /* Default-568h@2x.png in Resources */,
+				D7F745A42103F607007E5191 /* Auth0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73D126A2103F4BF004EF66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73D12752103F4BF004EF66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C777E1A5EA66EB5B6D1447A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthO Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93ABEE932C72D28782E5A441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthO TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8778E04635DEC22EFD4A88D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AuthO Test/Pods-AuthO Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuthO Test/Pods-AuthO Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E344321971CE01723797B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthO TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73D12512103F4BE004EF66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D12612103F4BE004EF66B /* AuthO_Test.xcdatamodeld in Sources */,
+				D73D125B2103F4BE004EF66B /* ViewController.swift in Sources */,
+				D73D12592103F4BE004EF66B /* s.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73D12682103F4BF004EF66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D12712103F4BF004EF66B /* AuthO_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73D12732103F4BF004EF66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D127C2103F4BF004EF66B /* AuthO_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D73D126E2103F4BF004EF66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D73D12542103F4BE004EF66B /* AuthO Test */;
+			targetProxy = D73D126D2103F4BF004EF66B /* PBXContainerItemProxy */;
+		};
+		D73D12792103F4BF004EF66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D73D12542103F4BE004EF66B /* AuthO Test */;
+			targetProxy = D73D12782103F4BF004EF66B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D73D125C2103F4BE004EF66B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73D125D2103F4BE004EF66B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D73D12642103F4BF004EF66B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73D12652103F4BF004EF66B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D73D127E2103F4BF004EF66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D73D127F2103F4BF004EF66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73D12812103F4BF004EF66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD0F36A16636E8B744DDF6B /* Pods-AuthO Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "AuthO Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lcproductions.AuthO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73D12822103F4BF004EF66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A7680DB65C480B1E74C0DC /* Pods-AuthO Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "AuthO Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lcproductions.AuthO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D73D12842103F4BF004EF66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B1D74D99E27B2D71B7334E /* Pods-AuthO TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "AuthO TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lcproductions.AuthO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthO Test.app/AuthO Test";
+			};
+			name = Debug;
+		};
+		D73D12852103F4BF004EF66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5743794F2DBD500A4DBABB2 /* Pods-AuthO TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "AuthO TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lcproductions.AuthO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthO Test.app/AuthO Test";
+			};
+			name = Release;
+		};
+		D73D12872103F4BF004EF66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA78E20E4EE692DD29DDC4C8 /* Pods-AuthO TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "AuthO TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lcproductions.AuthO-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AuthO Test";
+			};
+			name = Debug;
+		};
+		D73D12882103F4BF004EF66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236EA0496AB2AC7461B7DD66 /* Pods-AuthO TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "AuthO TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lcproductions.AuthO-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AuthO Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73D12502103F4BE004EF66B /* Build configuration list for PBXProject "AuthO Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73D127E2103F4BF004EF66B /* Debug */,
+				D73D127F2103F4BF004EF66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73D12802103F4BF004EF66B /* Build configuration list for PBXNativeTarget "AuthO Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73D12812103F4BF004EF66B /* Debug */,
+				D73D12822103F4BF004EF66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73D12832103F4BF004EF66B /* Build configuration list for PBXNativeTarget "AuthO TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73D12842103F4BF004EF66B /* Debug */,
+				D73D12852103F4BF004EF66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73D12862103F4BF004EF66B /* Build configuration list for PBXNativeTarget "AuthO TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73D12872103F4BF004EF66B /* Debug */,
+				D73D12882103F4BF004EF66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D73D125F2103F4BE004EF66B /* AuthO_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D73D12602103F4BE004EF66B /* AuthO_Test.xcdatamodel */,
+			);
+			currentVersion = D73D12602103F4BE004EF66B /* AuthO_Test.xcdatamodel */;
+			path = AuthO_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D73D124D2103F4BE004EF66B /* Project object */;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Auth0.plist
+   AuthO Test
+
+   Created by Larson Carter on 7/21/18.
+   Copyright (c) 2018 Larson Carter. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>ClientId</key>
+        <string>9RfBPJvSU9YcJ5gb8brjOSuPKi6Emt8M</string>
+        <key>Domain</key>
+        <string>lcproductions.auth0.com</string>    </dict>
+</plist>
