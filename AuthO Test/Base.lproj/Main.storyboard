@@ -19,9 +19,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXu-zQ-xOy">
                                 <rect key="frame" x="135" y="269" width="106" height="129"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="SXu-zQ-xOy" secondAttribute="height" multiplier="17:10" id="z0h-ca-OeM"/>
-                                </constraints>
                                 <state key="normal" title="Sign In!"/>
                                 <connections>
                                     <action selector="showLoginController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sSg-Hx-qzj"/>
