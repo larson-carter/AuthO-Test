@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		8F7A29EA74B752A4AB9000D8 /* Pods_AuthO_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB1C6ED2883F15A8B935E36 /* Pods_AuthO_Test.framework */; };
 		AE4E6812F972D52C43DCF37F /* Pods_AuthO_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B3EECDBA2614F328D334D9 /* Pods_AuthO_TestTests.framework */; };
+		D70C7CEC210BD1E10094DCBD /* PROFILE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70C7CEB210BD1E10094DCBD /* PROFILE.storyboard */; };
+		D70C7CEE210BD1EB0094DCBD /* PAYMENTS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70C7CED210BD1EB0094DCBD /* PAYMENTS.storyboard */; };
+		D70C7CF0210BD1F90094DCBD /* WEBSITE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70C7CEF210BD1F90094DCBD /* WEBSITE.storyboard */; };
+		D70C7CF2210BD2070094DCBD /* PROFILE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70C7CF1210BD2070094DCBD /* PROFILE.swift */; };
+		D70C7CF4210BD2110094DCBD /* PAYMENTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70C7CF3210BD2110094DCBD /* PAYMENTS.swift */; };
+		D70C7CF6210BD21C0094DCBD /* WEBSITE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70C7CF5210BD21C0094DCBD /* WEBSITE.swift */; };
 		D73D12592103F4BE004EF66B /* s.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D12582103F4BE004EF66B /* s.swift */; };
 		D73D125B2103F4BE004EF66B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D125A2103F4BE004EF66B /* ViewController.swift */; };
 		D73D125E2103F4BE004EF66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D125C2103F4BE004EF66B /* Main.storyboard */; };
@@ -47,6 +53,12 @@
 		AA78E20E4EE692DD29DDC4C8 /* Pods-AuthO TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO TestUITests/Pods-AuthO TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B3EECDBA2614F328D334D9 /* Pods_AuthO_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthO_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5743794F2DBD500A4DBABB2 /* Pods-AuthO TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthO TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthO TestTests/Pods-AuthO TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D70C7CEB210BD1E10094DCBD /* PROFILE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PROFILE.storyboard; sourceTree = "<group>"; };
+		D70C7CED210BD1EB0094DCBD /* PAYMENTS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PAYMENTS.storyboard; sourceTree = "<group>"; };
+		D70C7CEF210BD1F90094DCBD /* WEBSITE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WEBSITE.storyboard; sourceTree = "<group>"; };
+		D70C7CF1210BD2070094DCBD /* PROFILE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROFILE.swift; sourceTree = "<group>"; };
+		D70C7CF3210BD2110094DCBD /* PAYMENTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAYMENTS.swift; sourceTree = "<group>"; };
+		D70C7CF5210BD21C0094DCBD /* WEBSITE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEBSITE.swift; sourceTree = "<group>"; };
 		D73D12552103F4BE004EF66B /* AuthO Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuthO Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D12582103F4BE004EF66B /* s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s.swift; sourceTree = "<group>"; };
 		D73D125A2103F4BE004EF66B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,10 +130,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D70C7CE8210BD1A40094DCBD /* PROFILE */ = {
+			isa = PBXGroup;
+			children = (
+				D70C7CEB210BD1E10094DCBD /* PROFILE.storyboard */,
+				D70C7CF1210BD2070094DCBD /* PROFILE.swift */,
+			);
+			path = PROFILE;
+			sourceTree = "<group>";
+		};
+		D70C7CE9210BD1AB0094DCBD /* PAYMENTS */ = {
+			isa = PBXGroup;
+			children = (
+				D70C7CED210BD1EB0094DCBD /* PAYMENTS.storyboard */,
+				D70C7CF3210BD2110094DCBD /* PAYMENTS.swift */,
+			);
+			path = PAYMENTS;
+			sourceTree = "<group>";
+		};
+		D70C7CEA210BD1B10094DCBD /* WEBSITE */ = {
+			isa = PBXGroup;
+			children = (
+				D70C7CEF210BD1F90094DCBD /* WEBSITE.storyboard */,
+				D70C7CF5210BD21C0094DCBD /* WEBSITE.swift */,
+			);
+			path = WEBSITE;
+			sourceTree = "<group>";
+		};
 		D73D124C2103F4BE004EF66B = {
 			isa = PBXGroup;
 			children = (
 				D7F745A52103F6D9007E5191 /* Default-568h@2x.png */,
+				D70C7CE8210BD1A40094DCBD /* PROFILE */,
+				D70C7CE9210BD1AB0094DCBD /* PAYMENTS */,
+				D70C7CEA210BD1B10094DCBD /* WEBSITE */,
 				D73D12572103F4BE004EF66B /* AuthO Test */,
 				D73D126F2103F4BF004EF66B /* AuthO TestTests */,
 				D73D127A2103F4BF004EF66B /* AuthO TestUITests */,
@@ -283,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73D12662103F4BF004EF66B /* LaunchScreen.storyboard in Resources */,
+				D70C7CEE210BD1EB0094DCBD /* PAYMENTS.storyboard in Resources */,
 				D73D12632103F4BF004EF66B /* Assets.xcassets in Resources */,
+				D70C7CEC210BD1E10094DCBD /* PROFILE.storyboard in Resources */,
+				D70C7CF0210BD1F90094DCBD /* WEBSITE.storyboard in Resources */,
 				D73D125E2103F4BE004EF66B /* Main.storyboard in Resources */,
 				D7F745A62103F6D9007E5191 /* Default-568h@2x.png in Resources */,
 				D7F745A42103F607007E5191 /* Auth0.plist in Resources */,
@@ -389,8 +434,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73D12612103F4BE004EF66B /* AuthO_Test.xcdatamodeld in Sources */,
+				D70C7CF6210BD21C0094DCBD /* WEBSITE.swift in Sources */,
+				D70C7CF2210BD2070094DCBD /* PROFILE.swift in Sources */,
 				D73D125B2103F4BE004EF66B /* ViewController.swift in Sources */,
 				D73D12592103F4BE004EF66B /* s.swift in Sources */,
+				D70C7CF4210BD2110094DCBD /* PAYMENTS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
